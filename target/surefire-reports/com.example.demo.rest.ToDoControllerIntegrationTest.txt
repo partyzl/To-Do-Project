@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.rest.ToDoControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.155 s <<< FAILURE! - in com.example.demo.rest.ToDoControllerIntegrationTest
+createTest  Time elapsed: 0.215 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.example.demo.rest.ToDoControllerIntegrationTest.createTest(ToDoControllerIntegrationTest.java:69)
+
+deleteTest  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<204> but was:<404>
+	at com.example.demo.rest.ToDoControllerIntegrationTest.deleteTest(ToDoControllerIntegrationTest.java:86)
+

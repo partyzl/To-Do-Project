@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.rest.UserControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.504 s <<< FAILURE! - in com.example.demo.rest.UserControllerIntegrationTest
+createTest  Time elapsed: 0.415 s  <<< FAILURE!
+java.lang.AssertionError: 
+id
+Expected: 3
+     got: 4
+
+	at com.example.demo.rest.UserControllerIntegrationTest.createTest(UserControllerIntegrationTest.java:70)
+
+deleteTest  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<204> but was:<404>
+	at com.example.demo.rest.UserControllerIntegrationTest.deleteTest(UserControllerIntegrationTest.java:80)
+
