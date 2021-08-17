@@ -37,7 +37,7 @@ git clone https://github.com/parthpatel-qa/ToDos.git
 In Spring that would be File>Import>Maven>ExistingMavenProjects>Find the file>Finish
 ```
 <p align="center">
-<img src="ToDoProject/docs/spring.PNG">
+<img src="docs/spring.PNG">
 </p>
 
 
@@ -68,14 +68,14 @@ src/test/java
 The Service suites were testing with JUnit and look as such
 
 <p align="center">
-<img src="ToDoProject/docs/service.PNG">
+<img src="docs/service.PNG">
 </p>
 
 #### Controller
 Mockito was used to test these Controllers and looks as such
 
 <p align="center">
-<img src="ToDoProject/docs/controller.PNG">
+<img src="docs/controller.PNG">
 </p>
 
 ## Deployment
